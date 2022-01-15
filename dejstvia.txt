@@ -1,0 +1,39 @@
+terminal:
+git init
+git config --global user.name boytchenko_dmytro
+git config --global  user.email dboytchenko1@gmai.com
+git add .
+git commit -m 'creation de site pour module 11'
+git status
+
+/******************************************************/
+
+.gitignore    // Создайте новый файл в проект 
+прописиваэм в файле .gitignore следующее : 
+*.sass
+/bin
+/admin
+/config
+
+/******************************************************/
+terminal:
+
+git branch novajaVetka
+
+git checkout novajaVetka
+
+/******************************************************/
+
+ в новой ветке 'novajaVetka' создайте папку blog с файлами: index.js, index.html;
+
+/******************************************************/
+
+git add .
+git commit -m 'creation de branche novajaVetka'
+
+git remote add origin https://github.com/dimitri-boytchenko/module-11-git-domashka.git
+
+git push -u origin master
+
+
+
