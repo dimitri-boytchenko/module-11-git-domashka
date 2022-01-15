@@ -1,0 +1,7 @@
+# .sass и папки: bin, admin, config
+
+*.sass
+/bin
+/admin
+/config
+
